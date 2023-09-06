@@ -1,6 +1,11 @@
-const API_URL = "https://catalogodatos.gub.uy/dataset/15b6aac2-2a15-41e7-a86c-2579e638ecbe/resource/c00bb10f-6d21-4627-b9fb-55cd521ea906/download/remuneraciones-ursec-2023.json";
+const API_URL = "https://catalogodatos.gub.uy/dataset/13b9db1b-2f57-472f-aaa9-2906de549aa9/resource/3e2e8ff8-832e-4483-bc14-09056ef51dcb/download/envios-postales.json";
 
 fetch(API_URL)
     .then(response => {
         console.log(response);
     })
+    .catch(error => {
+        console.log(error);
+      });
+
+      
